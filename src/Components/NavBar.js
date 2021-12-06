@@ -3,7 +3,6 @@ const iconLogo = <ion-icon name="logo-instagram" />;
 const icons = ["paper-plane-outline", "compass-outline", "heart-outline", "person-outline"] 
 
 export default function NavBar() {
-    
     return (
         <div class="navbar">
             <Container />
@@ -12,14 +11,14 @@ export default function NavBar() {
 }
 
 function Container() {
-    
     return (
         <div class="container"> 
             <Logo />
-            <LogoIconeMobile />
+            <LogoIconMobile />
             <LogoImageMobile />
-            <Pesquisa />
+            <Search />
             <Icons />
+            <IconsMobile />
         </div>
     )
 }
@@ -34,7 +33,7 @@ function Logo() {
     )
 }
 
-function LogoIconeMobile() {
+function LogoIconMobile() {
     return (
         <div class="logo-mobile">
             { iconLogo }
@@ -54,16 +53,24 @@ function Icons() {
     return (
         <div class="icones">
             { 
-            icons.map((icon) => <ion-icon name= { icon}  > </ion-icon>)
+                icons.map((icon) => <ion-icon name= { icon }  > </ion-icon>) 
             }
         </div>
     )
 }
 
-function Pesquisa() {
+function Search() {
     return(
         <div class="pesquisa">
             <input type="text" placeholder="Pesquisar" />
+        </div>
+    )
+}
+
+function IconsMobile() {
+    return(
+        <div class="icones-mobile">
+            <ion-icon name= { icons[0] } ></ion-icon>
         </div>
     )
 }
