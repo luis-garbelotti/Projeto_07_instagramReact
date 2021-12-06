@@ -9,7 +9,6 @@ export default function Body() {
                 <Stories />
                 <Posts />
             </div>
-            
             <SideBar />
         </div>
     )

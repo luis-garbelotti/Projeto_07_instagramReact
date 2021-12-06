@@ -1,0 +1,17 @@
+[33mcommit ba3132f646f22598e5538a095140cb3c287120b2[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: luis garbelotti <luisgsgarbelotti@gmail.com>
+Date:   Mon Dec 6 12:36:55 2021 -0300
+
+    Componentizando elementos
+
+[33mcommit 14294ced39cbc43808d4ea03b4f1f098080b4ad1[m
+Author: luis garbelotti <luisgsgarbelotti@gmail.com>
+Date:   Sat Dec 4 03:08:53 2021 -0300
+
+    Adicionando NavBar
+
+[33mcommit 439414c8ce31fbda5fa905b8333f3a75f0579beb[m
+Author: luis garbelotti <luisgsgarbelotti@gmail.com>
+Date:   Thu Dec 2 11:37:34 2021 -0300
+
+    Initialize project using Create React App

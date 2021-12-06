@@ -212,13 +212,13 @@ body {
   margin-bottom: 18px;
 }
 
-.sidebar {
+.sidebar .sticky {
   padding-top: 24px;
   position: sticky;
   top: 88px;
 }
 
-.sidebar > .usuario {
+.sidebar > .sticky .usuario {
   display: flex;
   align-items: center;
 }
@@ -229,7 +229,7 @@ body {
   border-radius: 50%;
 }
 
-.sidebar > .usuario .texto {
+.sidebar > .sticky .usuario .texto {
   display: flex;
   flex-direction: column;
   margin-left: 14px;
@@ -237,7 +237,7 @@ body {
   color: #8E8E8E;
 }
 
-.sidebar > .usuario .texto strong {
+.sidebar > .sticky .usuario .texto strong {
   font-weight: 500;
   color: #262626;
 }
@@ -277,6 +277,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.nome {
+  font-weight: 500;
+  color: #262626;
 }
 
 .sidebar .sugestoes .sugestao .usuario .texto :last-child {
